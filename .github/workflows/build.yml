@@ -1,7 +1,7 @@
 name: test-pr-buildx
 
 on:
-  on_push:
+  on_commit:
     branches: main
   # pull_request:
   #   branches: master
