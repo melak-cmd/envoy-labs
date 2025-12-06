@@ -1,0 +1,10 @@
+netscaler:
+  adcCredentialSecret: "nslogin"
+  nsIP: "172.18.0.2" # NetScaler Management IP or SNIP with management access enabled for HAor CLIP for 
+                 # NetScaler Cluster
+gatewayController:
+  entityPrefix: gwy
+  gatewayControllerName: "citrix.com/nsgw-controller"
+license:
+  accept: yes
+ 
