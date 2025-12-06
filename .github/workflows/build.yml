@@ -1,10 +1,15 @@
-name: test-pr-buildx
+name: ci
+
+permissions:
+  contents: write   
 
 on:
-  on_commit:
-    branches: main
-  # pull_request:
-  #   branches: master
+  push:
+    branches:
+      - main   
+  pull_request: 
+    branches:
+      - main
     
 jobs:
   buildx:
