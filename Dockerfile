@@ -18,7 +18,7 @@ RUN apt-get update \
 ###########################
 # Stage 2 — Final Alpine image
 ###########################
-FROM alpine:3.22.2
+FROM alpine:3.23.0
 
 # Add only required edge repos (pin to specific versions if needed)
 RUN set -ex \
